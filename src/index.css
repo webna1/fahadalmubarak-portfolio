@@ -249,7 +249,7 @@ body.cursor-on *{cursor:none}
 .card-desc{color:var(--ink-soft);font-size:.97rem;max-width:62ch}
 .feat-1 .card-desc{font-size:1.04rem}
 .stack{display:flex;flex-wrap:wrap;gap:6px;margin-top:auto}
-.stack span{font-family:var(--mono);font-size:10.5px;letter-spacing:.02em;color:var(--ink-soft);border:1px solid var(--line);border-radius:6px;padding:4px 9px;white-space:nowrap}
+.stack span{font-family:var(--body);font-size:10.5px;letter-spacing:.02em;color:var(--ink-soft);border:1px solid var(--line);border-radius:6px;padding:4px 9px;white-space:nowrap}
 .view{display:inline-flex;align-items:center;gap:8px;font-family:var(--mono);font-size:12.5px;color:var(--ink);margin-top:6px;width:fit-content;white-space:nowrap}
 .view .arr{transition:transform .3s var(--ease);color:var(--c);filter:brightness(1.25)}
 .card:hover .view .arr{transform:translateX(5px)}
