@@ -24,8 +24,10 @@ export default function Nav() {
         <a href="#skills" data-hot onClick={closeMenu}>Skills</a>
         <a href="#contact" data-hot onClick={closeMenu}>Contact</a>
       </div>
-      <button className="nav-toggle" onClick={() => setOpen(o => !o)} data-hot>
-        MENU
+      <button className="nav-toggle" onClick={() => setOpen(o => !o)} data-hot aria-label="Toggle menu">
+        <span className={`burger${open ? ' open' : ''}`}>
+          <span /><span /><span />
+        </span>
       </button>
     </nav>
   )

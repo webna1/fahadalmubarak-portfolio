@@ -122,7 +122,12 @@ body.cursor-on *{cursor:none}
 .nav-links a:hover{color:var(--ink)}
 .nav-links a:hover::after{width:100%}
 
-.nav-toggle{display:none;background:none;border:none;color:var(--ink);font-family:var(--mono);font-size:13px;cursor:pointer}
+.nav-toggle{display:none;background:none;border:none;cursor:pointer;padding:4px}
+.burger{display:flex;flex-direction:column;gap:5px;width:22px}
+.burger span{display:block;height:2px;background:var(--ink);border-radius:2px;transition:transform .25s ease,opacity .25s ease}
+.burger.open span:nth-child(1){transform:translateY(7px) rotate(45deg)}
+.burger.open span:nth-child(2){opacity:0}
+.burger.open span:nth-child(3){transform:translateY(-7px) rotate(-45deg)}
 
 /* ============================================================
    HERO
