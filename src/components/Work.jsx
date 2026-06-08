@@ -36,7 +36,7 @@ const projects = [
     title: 'WEBNA',
     desc: 'Digital agency portfolio with custom cursor, 6-page structure, service and process showcase.',
     stack: ['React', 'Vite', 'Custom CSS', 'Advanced Animations'],
-    href: '#',
+    href: 'https://webna1.github.io/webna/',
   },
   {
     slug: 'reg',
